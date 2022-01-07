@@ -1,0 +1,13 @@
+eureka:
+    instance:
+        instance-id: ${spring.application.name}:${random.uuid}
+    client:
+        service-url:
+            default-zone: http://${eureka.instance.hostname}:8761/eureka/
+
+spring:
+    cloud:
+        config:
+            allowOverride: true
+            overrideNone: true
+            overrideSystemProperties: false
