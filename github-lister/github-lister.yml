@@ -1,7 +1,12 @@
 app:
+    
+    developer:
+        name: '@developer.name@'
+        url: '@developer.url@'
+        email: '@developer.email@'
 
-    title: GitHub Lister API
-    description: GitHub user repositories and its statistics listing application.
+    title: '@project.name@'
+    description: '@project.description@'
     version: '@project.version@'
 
 github:
