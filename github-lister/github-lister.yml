@@ -1,13 +1,2 @@
-app:
-    
-    developer:
-        name: '@developer.name@'
-        url: '@developer.url@'
-        email: '@developer.email@'
-
-    title: '@project.name@'
-    description: '@project.description@'
-    version: '@project.version@'
-
 github:
     access-token: ${GH_LISTER_CLIENT_ACCESS_TOKEN}
