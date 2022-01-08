@@ -1,2 +1,5 @@
+server:
+    port: 8080
+    
 github:
     access-token: ${GH_LISTER_CLIENT_ACCESS_TOKEN}
