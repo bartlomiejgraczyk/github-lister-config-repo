@@ -2,6 +2,6 @@ management:
     endpoints:
         web:
             exposure:
-                include: health, refresh, metrics, prometheus
+                include: health, refresh, metrics, prometheus, env
         health:
             show-details: always
